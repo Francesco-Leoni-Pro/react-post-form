@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Form from "./components/Form";
 import Card from "./components/Card";
+import "./App.css";
 
 function App() {
   const [posts, setPosts] = useState([]);
